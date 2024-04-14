@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Redofile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .sidebar {
+            width: 200px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .sidebar a:hover {
+            background-color: #555;
+        }
+        .container {
+            margin-left: 220px; /* Adjusted to accommodate sidebar width */
+            padding: 20px;
+        }
+        .header {
+            background-color: #28a745;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .book {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .book a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .book a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="homepage.html">Home</a>
+        <a href="#">Logout</a>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Profile - Redofile</h1>
+        </div>
+        <div class="section">
+            <h2>Your Books</h2>
+            <div class="book">
+                <h3><a href="#">Book 1</a></h3>
+                <p>Description of Book 1</p>
+            </div>
+            <div class="book">
+                <h3><a href="#">Book 2</a></h3>
+                <p>Description of Book 2</p>
+            </div>
+            <div class="book">
+                <h3><a href="#">Book 3</a></h3>
+                <p>Description of Book 3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
